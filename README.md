@@ -19,8 +19,8 @@ to an external monitor via HDMI.
 1. Open a terminal and run the command "openocd -f rpi4.cfg"
 2. Open another terminal and run gdb
 3. In gdb run the following commands:
-    a. set architechture aarch64
-    b. target extended-remote :3333
-    c. make
-    d. load kernel8.elf
-    e. continue (or c)
+    1. set architechture aarch64
+    2. target extended-remote :3333
+    3. make
+    4. load kernel8.elf
+    5. continue (or c)
